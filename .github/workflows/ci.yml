@@ -65,7 +65,8 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       
       - name: Build Docker image
-        run: docker build -t yourdockerusername/stylelint1:latest .
-      
+        run: docker build -t umairakhtar0/stylelint1:latest .
+
       - name: Push Docker image
-        run: docker push yourdockerusername/stylelint1:latest
+       run: docker push umairakhtar0/stylelint1:latest
+
