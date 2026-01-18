@@ -4,6 +4,9 @@ on:
   pull_request:
     branches: [develop]
 
+workflow_dispatch;
+
+
 jobs:
   html-lint:
     runs-on: ubuntu-latest
